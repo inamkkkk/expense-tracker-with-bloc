@@ -1,0 +1,52 @@
+# Flutter-specific ignores
+.dart_tool/
+.flutter-plugins
+.flutter-plugin-dependencies
+.metadata
+build/
+android/build/
+ios/Pods/
+ios/.symlinks/
+ios/Frameworks/
+web/build/
+packages/*/.dart_tool/
+packages/*/build/
+packages/*/example/.dart_tool/
+packages/*/example/build/
+packages/flutter_tools/.dart_tool/
+packages/flutter_tools/build/
+
+# Editor related
+.idea/
+.vscode/
+*.iml
+
+# OS generated files #
+######################
+.DS_Store
+trash/
+
+# Miscellaneous
+*.log
+*.tmp
+*.swp
+*~
+!*.md
+!LICENSE
+
+# Generated files
+**/g.dart
+**/generated_plugin_registrant.dart
+**/generated_plugin_registrant.cc
+
+# Dependency lock files
+podfile.lock
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# Coverage data
+coverage/
+
+# Firebase Emulators
+.firebase/
